@@ -1,37 +1,3 @@
-#    Web Scraping
-#    MGS 627: Project 2
-
-# We have learned a lot so far, now is a change to show it off!
-# Demonstrate that you can pull data from the web and perform some
-# summary statistics on it.
-
-# When grading this project it is important to consider
-# 1) Did you print the right outputs and your
-#   code work.
-# 2) Did you comment your code, so we understand what
-#   you did.
-# 3) The elegance of the solution (i.e. concise code instead
-#   of extraneous code or outputs)
-
-# Find an API to pull data from. Many of your favor sites have an API, but if
-# you are having trouble finding one, here is a list of public:
-# 'c'. Do not use any sources that we
-# have gone over in class. While these are good examples, we have already gone over them.
-
-# For this project, access the API and pull data.
-# Turn this data into a pandas dataset with at least one numeric column and one text
-# column. Then save that data as a csv file. Next, use that numeric column to calculate
-# and print the max() of that column in an informative text statement. Create a dataframe
-# that is only 10 largest values. Then plot this summary data similar to how we did
-# in week 5's lab. This will be using the .hist or .plot # method of a pandas DataFrame.
-
-# An example is a script using MarketStack API to pull stock prices over a month.
-# The code would print 'The highest stock price of NKE was 80.94', and it would
-# generate a graph of the top 10 stock prices over that month.
-
-# Please include any API credentials required to run the code as this is how I will
-# test if your query is successful.
-
 # Import needed packages
 import requests
 import pandas as pd
